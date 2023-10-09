@@ -1,0 +1,37 @@
+html,
+body,
+#viewDiv {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#customPopup {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 10px;
+    width: 250px;
+    padding: 20px;
+    background-color: rgba(136, 161, 187, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#customPopup h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.coordinate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
